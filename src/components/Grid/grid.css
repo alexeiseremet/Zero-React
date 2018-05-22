@@ -1,0 +1,34 @@
+.grid {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  margin-top: -1rem;
+  margin-left: -1rem;
+}
+
+.grid__col {
+  flex: 0 0 auto;
+  flex-basis: calc(100% / 3);
+  max-width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  min-height: .01rem;
+  /* Fixes flex-shrink value in IE10 */
+  -ms-flex-negative: 1;
+  position: relative;
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    margin-top: -3rem;
+    margin-left: -3rem;
+  }
+
+  .grid__col {
+    padding-left: 3rem;
+    margin: 1.5rem 0;
+  }
+}

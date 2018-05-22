@@ -1,0 +1,40 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: #414141;
+  background-color: #fafafa;
+}
+
+.logo {
+  display: block;
+}
+
+.logo__img {
+  display: block;
+  width: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 96rem;
+    padding: 0 4rem;
+  }
+}

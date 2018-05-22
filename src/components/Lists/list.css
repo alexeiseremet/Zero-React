@@ -1,0 +1,15 @@
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list--inline {
+  display:     flex;
+  flex-wrap:   wrap;
+  margin-left: -2rem
+}
+
+  .list--inline > .list__item {
+    padding-left: 2rem;
+  }

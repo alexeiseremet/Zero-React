@@ -1,0 +1,28 @@
+.l-header {
+  border-bottom: 1px solid #dadada;
+  background-color: #fff;
+}
+
+.l-header__inner {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 7.7rem;
+}
+
+.l-header__logo {
+  margin-right: 2rem;
+}
+
+@media (max-width: 599px) {
+  .l-header__search {
+    display: none;
+  }
+}
+
+.l-header__nav {
+  margin-left: 2rem;
+}
