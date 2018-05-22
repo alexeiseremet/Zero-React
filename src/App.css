@@ -18,15 +18,29 @@ body {
   background-color: #fafafa;
 }
 
-.logo {
+img,
+picture {
   display: block;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
 }
 
-.logo__img {
+svg,
+img[src*="svg"] {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* TODO: create Logo component */
+.logo {
   display: block;
   width: 3rem;
 }
 
+
+/* TODO: create Container component */
 .container {
   margin: 0 auto;
   padding: 0 1.5rem;

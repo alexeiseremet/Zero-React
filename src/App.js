@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="l-wrapper">
         <Header />
-        <Main />
+        <Main/>
         <Footer />
       </div>
     );
